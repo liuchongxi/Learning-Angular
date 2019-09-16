@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Databinding-Exercise';
+  username: string = "";
+
+  emptyUserName(){
+    if(this.username === ""){
+      return true;
+    }else{
+      return false;
+    }
+  }
+
+  resetUserName(){
+    this.username = "";
+  }
 }
