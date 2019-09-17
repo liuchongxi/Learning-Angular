@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Directive-Exercise';
+  displayP: boolean = true;
+  buttonClickedData: Array<number> = [];
+
+  buttonClicked(){
+    this.displayP = !this.displayP;
+    this.buttonClickedData.push(new Date().getSeconds());
+  }
 }
