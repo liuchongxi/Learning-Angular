@@ -12,3 +12,6 @@ Angular learning exercise and project
 ### Directive Exercise
 - A button can toggle to display a message
 - A list to display some data about each click
+
+### Property and Event Binding Exercise
+- Three Components: GameControl, even and odd

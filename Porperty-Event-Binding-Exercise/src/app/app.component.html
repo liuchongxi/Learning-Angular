@@ -1,0 +1,8 @@
+<app-game-control (sendNumber) = "receiveNumber($event)"></app-game-control>
+
+<ul *ngFor="let number of numbers">
+  <li *ngIf="number%2 === 1">
+    <app-odd [number] = "number"></app-odd></li>
+  <li *ngIf="number%2 === 0">
+    <app-even [number] = "number"></app-even></li>
+</ul>
