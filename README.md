@@ -15,3 +15,6 @@ Angular learning exercise and project
 
 ### Property and Event Binding Exercise
 - Three Components: GameControl, even and odd
+
+### Service Exercise
+- Two Services: userService and counterService
